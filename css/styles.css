@@ -192,3 +192,17 @@ img {
 .services {
   padding-top: 200px;
 }
+
+.header-section-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.header-section-left {
+  max-width: 465px;
+}
+.header-section-heading {
+
+}
