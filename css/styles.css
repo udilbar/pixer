@@ -204,5 +204,13 @@ img {
   max-width: 465px;
 }
 .header-section-heading {
-
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 30px;
+  line-height: 130%;
+}
+.header-section-text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 24px;
 }
