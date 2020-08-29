@@ -62,6 +62,7 @@ img {
   position: static;
   z-index: 100;
   width: 100%;
+  background-color: #fff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
 .pixer-nav {
