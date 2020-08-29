@@ -28,11 +28,12 @@ html {
 body {
   padding: 0;
   margin: 0;
+  margin-top: 59px;
   font-family: "Product sans", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
-  color: #000;
+  color: #222;
 }
 img {
   max-width: 100%;
@@ -59,8 +60,10 @@ img {
 
 /* HEADER PART */
 .pixer-header {
-  position: static;
+  position: fixed;
   z-index: 100;
+  left: 0;
+  top: 0;
   width: 100%;
   background-color: #fff;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
@@ -233,5 +236,6 @@ img {
 .header-section-video {
   width: 458px;
   height: 258px;
+  border: none;
   border-radius: 5px;
 }
