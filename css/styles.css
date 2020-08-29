@@ -137,6 +137,7 @@ img {
 .blue-link {
   display: inline-block;
   text-decoration: none;
+  border: none;
   font-size: 15px;
   line-height: 24px;
   background-color: #00BAFC;
