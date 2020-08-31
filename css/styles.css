@@ -33,7 +33,7 @@ body {
   margin-top: 59px;
   font-family: "Product sans", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 24px;
   background-color: #fff;
   color: #222;
 }
@@ -146,11 +146,11 @@ img {
   border-radius: 5px;
   color: #FFFFFF;
   padding: 8px 16px;
-  margin-left: 32px;
   white-space: nowrap;
 }
 
 .blue-link-add-style {
+  margin-left: 32px;
   font-weight: bold;
   transition: background-color 0.3s ease,
   border-color 0.3s ease,
@@ -276,6 +276,12 @@ img {
   border-radius: 5px;
 }
 
+/* SERVICES SECTION */
+
+.services {
+  margin-bottom: 56px;
+}
+
 .section-heading {
   margin-top: 0;
   margin-bottom: 16px;
@@ -380,4 +386,21 @@ img {
 
 .services-link-text {
   margin: 0;
+}
+
+.services-ordering {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ordering-button {
+  font-weight: bold;
+}
+
+.going-services-link {
+  margin-left: 16px;
+  color: #00BAFC;
+  text-decoration: none;
+  border-bottom: 2px solid #00BAFC;
 }
