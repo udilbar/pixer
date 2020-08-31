@@ -233,6 +233,7 @@ img {
 .header-section-wrapper {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -291,7 +292,7 @@ img {
 }
 
 .section-text {
-  width: 719px;
+  max-width: 719px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
@@ -304,26 +305,15 @@ img {
   padding: 0;
   list-style-type: none;
   display: flex;
+  margin-left: -70px;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .services-item {
   display: flex;
-  margin-right: 70px;
+  margin-left: 70px;
   margin-bottom: 48px;
-}
-
-.services-item:nth-child(3),
-.services-item:nth-child(5) {
-  margin-right: 0;
-}
-
-.services-item:nth-child(4) {
-  margin-left: auto;
-}
-
-.services-item:nth-child(5) {
-  margin-right: auto;
 }
 
 .services-link {
@@ -418,13 +408,76 @@ img {
 
 /* How we work section */
 
+.process {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
 .process-list {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
 
-.process {
-  padding-top: 56px;
-  padding-bottom: 56px;
+.process-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 48px;
+}
+
+.process-item::before {
+  display: inline-block;
+  content: "";
+  width: 300px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 32px;
+}
+
+.process-item:nth-child(1)::before {
+  height: 277px;
+  background-image: url("../img/step-illustration7.svg");
+}
+
+.process-item:nth-child(2)::before {
+  height: 225px;
+  background-image: url("../img/step-illustration.svg");
+}
+
+.process-item:nth-child(3)::before {
+  height: 259px;
+  background-image: url("../img/step-illustration2.svg");
+}
+
+.process-item:nth-child(4)::before {
+  height: 171px;
+  background-image: url("../img/step-illustration4.svg");
+}
+
+.process-item:nth-child(5)::before {
+  height: 232px;
+  background-image: url("../img/step-illustration25.svg");
+}
+
+.process-item:nth-child(2n)::before {
+  order: 1;
+  margin-left: 32px;
+}
+
+.process-item-content {
+  max-width: 493px;
+}
+
+.process-item-heading {
+  font-size: 20px;
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.process-item-text {
+  margin: 0;
 }
