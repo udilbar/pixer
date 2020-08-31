@@ -413,6 +413,13 @@ img {
   padding-bottom: 56px;
 }
 
+.process-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .process-list {
   padding: 0;
   margin: 0;
