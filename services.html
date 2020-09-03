@@ -57,7 +57,7 @@
             </nav><!-- pixer-nav -->
         </div>
     </header><!-- pixer-header -->
-
+    
     <div class="services-main-header">
         <div class="container">
             <h1 class="services-main-heading">Xizmatlar</h1>
@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="main-wrapper">
         <main class="services-main">
             <div class="container">
@@ -84,12 +84,12 @@
                                 <li class="details-item">maxsus</li>
                             </ul>
                             <div class="details-links">
-                                <a  class="blue-link ordering-button" href="#orderingButton">Buyurtma berish</a>
+                                <a  class="blue-link" href="#orderingButton">Buyurtma berish</a>
                                 <a class="going-services-link" href="web-site.html">Batafsil ma’lumot</a>
                             </div>
                         </div>
                     </li>
-
+                    
                     <li class="services-main-item">
                         <div class="services-main-content">
                             <h3 class="services-main-item-heading">Telegram bot tuzish</h3>
@@ -103,12 +103,12 @@
                                 <li class="details-item">maxsus</li>
                             </ul>
                             <div class="details-links">
-                                <a  class="blue-link ordering-button" href="#orderingButton">Buyurtma berish</a>
+                                <a  class="blue-link" href="#orderingButton">Buyurtma berish</a>
                                 <a class="going-services-link" href="telegram-bot.html">Batafsil ma’lumot</a>
                             </div>
                         </div>
                     </li>
-
+                    
                     <li class="services-main-item">
                         <div class="services-main-content">
                             <h3 class="services-main-item-heading">SMM</h3>
@@ -121,12 +121,12 @@
                                 <li class="details-item">aksiyalar uyushtirish</li>
                             </ul>
                             <div class="details-links">
-                                <a  class="blue-link ordering-button" href="#orderingButton">Buyurtma berish</a>
+                                <a  class="blue-link" href="#orderingButton">Buyurtma berish</a>
                                 <a class="going-services-link" href="smm.html">Batafsil ma’lumot</a>
                             </div>
                         </div>
                     </li>
-
+                    
                     <li class="services-main-item">
                         <div class="services-main-content">
                             <h3 class="services-main-item-heading">Grafik dizayn</h3>
@@ -138,12 +138,12 @@
                                 <li class="details-item">ijtimoiy tarmoq sahifalari uchun posterlar</li>
                             </ul>
                             <div class="details-links">
-                                <a  class="blue-link ordering-button" href="#orderingButton">Buyurtma berish</a>
+                                <a  class="blue-link" href="#orderingButton">Buyurtma berish</a>
                                 <a class="going-services-link" href="graphic-disigin.html">Batafsil ma’lumot</a>
                             </div>
                         </div>
                     </li>
-
+                    
                     <li class="services-main-item">
                         <div class="services-main-content">
                             <h3 class="services-main-item-heading">CRM tizimlar</h3>
@@ -155,7 +155,7 @@
                                 <li class="details-item">maxsus</li>
                             </ul>
                             <div class="details-links">
-                                <a  class="blue-link ordering-button" href="#orderingButton">Buyurtma berish</a>
+                                <a  class="blue-link" href="#orderingButton">Buyurtma berish</a>
                                 <a class="going-services-link" href="crm.html">Batafsil ma’lumot</a>
                             </div>
                         </div>
@@ -163,51 +163,46 @@
                 </ul>
             </div>
         </main><!-- services-main -->
-
+        
         <!-- Order Form Section -->
-
-        <section class="order-section" id="orderingButton">
+        
+        <section class="order-section" id="orderingSection">
             <div class="container">
-                <div class="order-content">
-                    <h2 class="section-heading white-text">Buyurtma berish</h2>
-                    <p class="section-text white-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, quam? Praesentium dicta id facilis similique corporis minus doloremque pariatur tempora.</p>
-
-                    <form class="services-form" action="https://echo.htmlacademy.ru" method="GET">
-                        <label for="name_input">
-                            <input type="text" name="username" id="name_input" placeholder="Ismingiz">
-                        </label>
-
-                        <label for="tel_input">
-                            <input type="tel" name="tel" id="tel_input" placeholder="Telefon raqamingiz">
-                        </label>
-
-                        <label class="select-label" for="service_slect">
-                            <select name="service" id="service_select">
-                                <option selected disabled>Xizmat turi</option>
-                                <option>Lorem, ipsum</option>
-                                <option>Lorem, ipsum</option>
-                                <option>Lorem, ipsum</option>
-                            </select>
-                        </label>
-
-                        <button class="order-btn" type="submit">Buyurtma berish</button>
-                    </form>
-                </div><!-- order-section -->
-            </div><!-- container -->
+                <h2 class="order-section-heading">Buyurtma berish</h2>
+                <p class="order-section-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                
+                <form class="order-section-form" action="https://echo.htmlacademy.ru" method="GET">
+                    <label class="visually-hidden" for="name-input">Ismingiz</label>
+                    <input class="order-section-input" type="text" id="name-input" placeholder="Ismingiz" name="Ism" spellcheck="false" required>
+                    
+                    <label class="visually-hidden" for="tel-input">Telefon raqamingiz</label>
+                    <input class="order-section-input" type="tel" id="tel-input" placeholder="Telefon raqamingiz" name="Telefon raqam" spellcheck="false" required>
+                    
+                    <label class="visually-hidden" for="service-select">Xizmat turlari</label>
+                    <select class="order-section-select" name="Xizmat turi" id="service-select">
+                        <option selected disabled>Xizmat turi</option>
+                        <option>Vebsayt tuzish</option>
+                        <option>CRM tizimlar</option>
+                        <option>SMM</option>
+                    </select>
+                    
+                    <button class="blue-link order-section-btn" type="submit">Buyurtma berish</button>
+                </form>
+            </div>
         </section>
     </div>
-
+    
     <!-- Site Footer   -->
-
+    
     <footer class="site-footer">
         <div class="container">
             <div class="site-footer-content">
                 <div class="copyright">
                     <h3 class="footer-headings">Copyright 2020</h3>
-
+                    
                     <p>Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
                 </div><!-- copyright -->
-
+                
                 <div class="footer-sitenav">
                     <h3 class="footer-headings">Sayt sahifalari</h3>
                     <ul class="footer-pages-list">
@@ -231,7 +226,7 @@
                         </li>
                     </ul>
                 </div><!-- footer-sitenav -->
-
+                
                 <div class="socials">
                     <h3 class="footer-headings">Biz internetda</h3>
                     <ul class="socials-list">
@@ -258,6 +253,6 @@
             </div><!-- site-footer-content -->
         </div><!-- container -->
     </footer>
-
+    
 </body>
 </html>
