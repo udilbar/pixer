@@ -492,6 +492,12 @@ img {
 
 /* ======SERVICES PAGE====== */
 
+.services-main {
+  background-color: #F4F4F4;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .services-main-header {
   max-width: 800px;
   margin-left: auto;
@@ -510,4 +516,110 @@ img {
 
 .services-main-text {
   margin: 0;
+}
+
+.services-lists {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.services-main-item {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+  max-width: 804px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  padding: 32px;
+}
+
+.services-main-item:not(:last-child) {
+  margin-bottom: 64px;
+}
+
+.services-main-item::before {
+  width: 200px;
+  content: "";
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  margin-right: 40px;
+}
+
+.services-main-item:nth-child(1)::before {
+  height: 128px;
+  background-image: url("../img/website.svg");
+}
+
+.services-main-item:nth-child(2)::before {
+  height: 117px;
+  background-image: url("../img/bot-illustration.svg");
+}
+
+.services-main-item:nth-child(3)::before {
+  height: 147px;
+  background-image: url("../img/smm-illustration.svg");
+}
+
+.services-main-item:nth-child(4)::before {
+  height: 145px;
+  background-image: url("../img/design-illustration.svg");
+}
+
+.services-main-item:nth-child(5)::before {
+  height: 154px;
+  background-image: url("../img/crm-illustration.svg");
+}
+
+.services-main-content {
+  max-width: 500px;
+}
+
+.services-main-item-heading {
+  font-size: 20px;
+  line-height: 130%;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.services-main-item-text {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.details-list {
+  margin-bottom: 16px;
+}
+
+.details-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.details-item {
+  display: flex;
+  align-items: center;
+}
+
+.details-item::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: #00BAFC;
+  border-radius: 12px;
+  margin-right: 8px;
+}
+
+.details-links a {
+  font-size: 16px;
+}
+
+.details-links a:nth-of-type(2) {
+  padding-bottom: 5px;
 }
