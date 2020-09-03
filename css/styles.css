@@ -113,7 +113,8 @@ img {
   border-bottom-color 0.3s ease;
 }
 
-.pixer-nav-item:hover {
+.pixer-nav-item:hover,
+.pixer-nav-item-active {
   border-bottom-color: #191919;
 }
 
@@ -486,5 +487,27 @@ img {
 }
 
 .process-item-text {
+  margin: 0;
+}
+
+/* ======SERVICES PAGE====== */
+
+.services-main-header {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+
+.services-main-heading {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 40px;
+  line-height: 130%;
+}
+
+.services-main-text {
   margin: 0;
 }
