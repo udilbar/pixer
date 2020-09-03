@@ -610,14 +610,12 @@ img {
   display: flex;
   align-items: center;
   color: #ffffff;
+  cursor: pointer;
   transition: opacity 0.3s ease;
 }
 
-.social-media-item:hover .footer-icon-svg path {
-  fill: #00BAFC;
-}
-
-.social-media-item:hover .social-media-link {
+.social-media-item:hover .social-media-link,
+.social-media-item:hover .footer-icon-svg {
   color: #00BAFC;
 }
 
@@ -626,7 +624,7 @@ img {
   width: 22px;
   height: 24px;
   margin-right: 8px;
-  transition: fill 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .social-media-link {
