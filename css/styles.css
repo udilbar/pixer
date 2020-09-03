@@ -140,8 +140,7 @@ img {
   display: inline-block;
   text-decoration: none;
   border: none;
-  font-size: 15px;
-  line-height: 24px;
+  font-weight: bold;
   background-color: #00BAFC;
   border: 3px solid transparent;
   border-radius: 5px;
@@ -778,10 +777,6 @@ img {
   background-color: #00BAFC;
   border-radius: 12px;
   margin-right: 8px;
-}
-
-.details-links a {
-  font-size: 16px;
 }
 
 .details-links a:nth-of-type(2) {
