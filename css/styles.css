@@ -17,6 +17,7 @@
 }
 
 html {
+  height: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -28,6 +29,7 @@ html {
 }
 
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   margin-top: 59px;
@@ -60,6 +62,12 @@ img {
   padding-right: 24px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 /* =========== HEADER PART ========== */
